@@ -1,4 +1,4 @@
-# diy-astigmatic-angle-determination
+# DIY Astigmatic Angle Determination
 Experimental tool to determine the axis angles of your astigmatic eyes
                                                                                                     
 # Warning:
