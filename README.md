@@ -2,8 +2,8 @@
 Experimental tool to determine the axis angle of your astigmatic eye
                                                                                                     
 # Warning:
-This tool is by no means made with professional expertise!
-You should use this out of curiosity only !!!
+This tool without any professional expertise regarding eye optics!
+You should use this out of curiosity only!
 
 # Reason for making this tool:
 I ordered new glasses (adapted for my computer screen, fixed distance 50cm), sadly it was useless to me.
