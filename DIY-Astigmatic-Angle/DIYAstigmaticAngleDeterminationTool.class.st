@@ -207,18 +207,18 @@ DIYAstigmaticAngleDeterminationTool >> increaseStep [
 DIYAstigmaticAngleDeterminationTool >> initialize [
 
 	super initialize.
-	lineWidth := 1.
+	lineWidth := 10.
 	guideAngle := 0.
-	onlyUseFewLines := false.
-	stepSizes := #( "1 2 3 4" 5 6 9 10 12 15 18 20 ).
-	stepSizeIndex := stepSizes size.
+	onlyUseFewLines := true.
+	stepSizes := #( 5 6 9 10 12 15 18 20 ). "1 2 3 4"
+	stepSizeIndex := 6.
 	colorSchemes := { 
-		               " AADTColorScheme bw."
-		                AADTColorScheme wb.
 		                AADTColorScheme red.
+		                AADTColorScheme wb.
 		                AADTColorScheme green }.
+	" AADTColorScheme bw."
 	colorSchemeIndex := 1.
-	textVisible := false
+	textVisible := true
 ]
 
 { #category : #accessing }
