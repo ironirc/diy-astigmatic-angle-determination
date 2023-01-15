@@ -261,7 +261,6 @@ DIYAstigmaticAngleDeterminationTool >> processKeyDown: ev [
 		self rotateGuide: (ev shiftKeyPressed
 				 ifTrue: [ 5 ]
 				 ifFalse: [ 0.5 ]) ].
-	ev keyName = 'RIGHT' ifTrue: [ self rotateGuide: 0.5 ].
 	ev keyName = 'UP' ifTrue: [ self increaseStep ].
 	ev keyName = 'DOWN' ifTrue: [ self decreaseStep ].
 	ev keyName = 'KP_SUBTRACT' ifTrue: [ self addToLineWidth: -0.25 ].
@@ -269,7 +268,7 @@ DIYAstigmaticAngleDeterminationTool >> processKeyDown: ev [
 	ev keyName = 'M' ifTrue: [ self toggleModeFullOrPartial ].
 	ev keyName = 'C' ifTrue: [ self selectNextColorScheme ].
 	ev keyName = 'T' ifTrue: [ self toggleTextVisibility ].
-	ev keyName = 'F' ifTrue: [ self rotateGuide: 180 ].
+	ev keyName = 'F' ifTrue: [ self rotateGuide: 180 ]. "only usefull when few lines is active"
 	ev keyName = 'Z' ifTrue: [ self zoomToFit ]
 ]
 
