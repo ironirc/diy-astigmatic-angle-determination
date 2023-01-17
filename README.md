@@ -1,5 +1,5 @@
 # DIY Astigmatic Angle Determination
-Experimental tool to determine the axis angle of your astigmatic eye.
+Experimental tool to determine the axis angle of your astigmatic eye.  
 Built using Pharo & Roassal.
                                                                                                     
 # Warning:
