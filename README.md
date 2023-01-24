@@ -3,7 +3,7 @@ Experimental tool to determine the axis angle of your astigmatic eye.
 Built using Pharo & Roassal.
                                                                                                     
 # Warning:
-This tool is made without any professional expertise regarding eye optics!
+This tool is made without any expertise regarding eye optics!
 You should use this out of curiosity only!
 
 # Reason for making this tool:
